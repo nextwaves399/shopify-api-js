@@ -1,0 +1,6 @@
+// Session is built by the OAuth process
+
+await shopify.rest.CustomCollection.all({
+  session: session,
+  ids: "395646240,691652237,841564295",
+});
