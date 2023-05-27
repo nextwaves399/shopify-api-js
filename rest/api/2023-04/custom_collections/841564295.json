@@ -1,0 +1,6 @@
+// Session is built by the OAuth process
+
+await shopify.rest.CustomCollection.delete({
+  session: session,
+  id: 841564295,
+});
