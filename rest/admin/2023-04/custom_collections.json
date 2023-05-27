@@ -1,0 +1,27 @@
+// Session is built by the OAuth process
+
+const custom_collection = new shopify.rest.CustomCollection({session: session});
+custom_collection.title = "IPods";
+custom_collection.collects = [
+  {
+    "product_id": 921728736
+  }
+];
+await custom_collection.save({
+  update: true,
+});
+HTTP/1.1 201 Created
+{
+  "custom_collection": {
+    "id": 1063001312,
+    "handle": "ipods-1",
+    "title": "IPods",
+    "updated_at": "2023-02-02T09:15:15-05:00",
+    "body_html": null,
+    "published_at": "2023-02-02T09:15:15-05:00",
+    "sort_order": "best-selling",
+    "template_suffix": null,
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/1063001312"
+  }
+}
