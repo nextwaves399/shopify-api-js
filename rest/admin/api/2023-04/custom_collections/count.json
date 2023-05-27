@@ -1,0 +1,5 @@
+// Session is built by the OAuth process
+
+await shopify.rest.CustomCollection.count({
+  session: session,
+});
