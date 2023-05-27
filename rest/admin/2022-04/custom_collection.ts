@@ -157,3 +157,27 @@ export class CustomCollection extends Base {
   public template_suffix: string | null;
   public updated_at: string | null;
 }
+HTTP/1.1 200 OK
+{
+  "custom_collection": {
+    "title": "IPods",
+    "handle": "ipods",
+    "body_html": "<p>The best selling ipod ever</p>",
+    "id": 841564295,
+    "updated_at": "2023-02-02T09:15:50-05:00",
+    "published_at": "2008-02-01T19:00:00-05:00",
+    "sort_order": "manual",
+    "template_suffix": null,
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/841564295",
+    "image": {
+      "created_at": "2023-02-02T09:09:49-05:00",
+      "alt": "MP3 Player 8gb",
+      "width": 123,
+      "height": 456,
+      "src": "https://cdn.shopify.com/s/files/1/0005/4838/0009/collections/ipod_nano_8gb.jpg?v=1675346989"
+    }
+  }
+}
+HTTP/1.1 200 OK
+{}
